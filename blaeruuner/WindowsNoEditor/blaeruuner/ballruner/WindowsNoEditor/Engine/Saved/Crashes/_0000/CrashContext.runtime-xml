@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>75155DF44975B86D1D41329903BADA01</ExecutionGuid>
+<CrashGUID>_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>true</IsAssert>
+<CrashType>Assert</CrashType>
+<ErrorMessage>Fatal error: [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/Core/Private/Internationalization/ICUInternationalization.cpp] [Line: 153] 
+ICU data directory was not discovered:
+../../../Engine/Content/Internationalization
+../../../Engine/Content/Internationalization
+
+
+</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>0</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-UE4Game</GameName>
+<ExecutableName></ExecutableName>
+<BuildConfiguration></BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.27-CL-18319896-Win64-</Symbols>
+<PlatformName></PlatformName>
+<PlatformNameIni></PlatformNameIni>
+<EngineMode></EngineMode>
+<EngineModeEx></EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.27.2-18319896+++UE4+Release-4.27</EngineVersion>
+<CommandLine></CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale></AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.27-CL-18319896</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir></BaseDir>
+<RootDir></RootDir>
+<MachineId></MachineId>
+<LoginId></LoginId>
+<EpicAccountId></EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>0</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>0</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor></Misc.CPUVendor>
+<Misc.CPUBrand></Misc.CPUBrand>
+<Misc.PrimaryGPUBrand></Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor></Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>34278707200</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>21951078400</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>21142761472</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>60289024</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>60289024</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>35651584</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>35655680</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>4</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+UE4Game   0x00007ff74d790000 + 1b1073c         
+UE4Game   0x00007ff74d790000 + 1b03131         
+UE4Game   0x00007ff74d790000 + 1b53254         
+UE4Game   0x00007ff74d790000 + 9ab92e          
+UE4Game   0x00007ff74d790000 + 9c085f          
+UE4Game   0x00007ff74d790000 + 9b5196          
+UE4Game   0x00007ff74d790000 + 9b553a          
+UE4Game   0x00007ff74d790000 + 9b793c          
+UE4Game   0x00007ff74d790000 + 9c9184          
+UE4Game   0x00007ff74d790000 + 71ef152         
+KERNEL32  0x00007ff862f40000 + 1259d           
+ntdll     0x00007ff863dd0000 + 5af38           
+</PCallStack>
+<PCallStackHash>B21EE104058B00F969BD738F629000F07C26B6DC</PCallStackHash>
+<Threads><Thread><CallStack>ntdll         0x00007ff863dd0000 + a0424           
+KERNELBASE    0x00007ff8616d0000 + 39cee           
+UE4Game       0x00007ff74d790000 + 1f310bd         
+UE4Game       0x00007ff74d790000 + 71f95fe         
+VCRUNTIME140  0x00007ff850e00000 + e7bf            
+ntdll         0x00007ff863dd0000 + a543f           
+ntdll         0x00007ff863dd0000 + 1e886           
+ntdll         0x00007ff863dd0000 + 54955           
+KERNELBASE    0x00007ff8616d0000 + 5fb4c           
+UE4Game       0x00007ff74d790000 + 1f31006         
+UE4Game       0x00007ff74d790000 + 1f34ed8         
+UE4Game       0x00007ff74d790000 + 1c8bb6d         
+UE4Game       0x00007ff74d790000 + 1b1073c         
+UE4Game       0x00007ff74d790000 + 1b03131         
+UE4Game       0x00007ff74d790000 + 1b53254         
+UE4Game       0x00007ff74d790000 + 9ab92e          
+UE4Game       0x00007ff74d790000 + 9c085f          
+UE4Game       0x00007ff74d790000 + 9b5196          
+UE4Game       0x00007ff74d790000 + 9b553a          
+UE4Game       0x00007ff74d790000 + 9b793c          
+UE4Game       0x00007ff74d790000 + 9c9184          
+UE4Game       0x00007ff74d790000 + 71ef152         
+KERNEL32      0x00007ff862f40000 + 1259d           
+ntdll         0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>18492</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26152</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26628</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8608</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8432</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7440</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14396</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16548</ThreadID>
+<ThreadName>TaskGraphThreadNP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8976</ThreadID>
+<ThreadName>TaskGraphThreadNP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18568</ThreadID>
+<ThreadName>TaskGraphThreadNP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27488</ThreadID>
+<ThreadName>TaskGraphThreadNP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8168</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28400</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2136</ThreadID>
+<ThreadName>TaskGraphThreadHP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4440</ThreadID>
+<ThreadName>TaskGraphThreadHP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13240</ThreadID>
+<ThreadName>TaskGraphThreadHP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26656</ThreadID>
+<ThreadName>TaskGraphThreadHP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16680</ThreadID>
+<ThreadName>TaskGraphThreadHP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>21276</ThreadID>
+<ThreadName>TaskGraphThreadHP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>26252</ThreadID>
+<ThreadName>TaskGraphThreadHP 18</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>28772</ThreadID>
+<ThreadName>TaskGraphThreadHP 19</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9472</ThreadID>
+<ThreadName>TaskGraphThreadBP 20</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16228</ThreadID>
+<ThreadName>TaskGraphThreadBP 21</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16192</ThreadID>
+<ThreadName>TaskGraphThreadBP 22</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5424</ThreadID>
+<ThreadName>TaskGraphThreadBP 23</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23988</ThreadID>
+<ThreadName>TaskGraphThreadBP 24</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15020</ThreadID>
+<ThreadName>TaskGraphThreadBP 25</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6432</ThreadID>
+<ThreadName>TaskGraphThreadBP 26</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19444</ThreadID>
+<ThreadName>TaskGraphThreadBP 27</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11580</ThreadID>
+<ThreadName>TaskGraphThreadBP 28</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a303b7         
+UE4Game     0x00007ff74d790000 + 1a31970         
+UE4Game     0x00007ff74d790000 + 1a37315         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9720</ThreadID>
+<ThreadName>TaskGraphThreadBP 29</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1a31182         
+UE4Game     0x00007ff74d790000 + 1a318de         
+UE4Game     0x00007ff74d790000 + 1d502cd         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>25320</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11440</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>8104</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18584</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14700</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>22720</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12320</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>29028</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18776</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4160</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17660</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3392</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0424           
+KERNELBASE  0x00007ff8616d0000 + 39cee           
+UE4Game     0x00007ff74d790000 + 1f55dcb         
+UE4Game     0x00007ff74d790000 + 1b22191         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>23800</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00007ff863dd0000 + a0a24           
+ntdll       0x00007ff863dd0000 + 55693           
+KERNELBASE  0x00007ff8616d0000 + 4a3cd           
+UE4Game     0x00007ff74d790000 + 1b22448         
+UE4Game     0x00007ff74d790000 + 1f51d0f         
+UE4Game     0x00007ff74d790000 + 1f48220         
+KERNEL32    0x00007ff862f40000 + 1259d           
+ntdll       0x00007ff863dd0000 + 5af38           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2828</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
